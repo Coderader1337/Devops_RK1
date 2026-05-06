@@ -23,7 +23,7 @@ def get_product(product_id):
     product = next((p for p in products if p['id'] == product_id), None)
     if product:
         return jsonify(product)
-    return jsonify({"error": "Product not found"}), 200
+    return jsonify({"error": "Product not found"}), 404
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
