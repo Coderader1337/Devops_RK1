@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ноутбук Dell XPS 13",
+    "price": 89990,
+    "category": "Электроника"
+  },
+  {
+    "id": 2,
+    "name": "Беспроводная мышь Logitech",
+    "price": 1590,
+    "category": "Аксессуары"
+  },
+  {
+    "id": 3,
+    "name": "Клавиатура Keychron K2",
+    "price": 7990,
+    "category": "Аксессуары"
+  }
+]
